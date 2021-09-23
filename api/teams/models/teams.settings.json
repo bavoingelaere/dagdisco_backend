@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "name": "teams"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "team_name": {
+      "type": "string",
+      "required": false
+    },
+    "beers": {
+      "type": "biginteger",
+      "default": "0"
+    }
+  }
+}
